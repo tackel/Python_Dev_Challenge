@@ -23,4 +23,4 @@ class GeoAPI:
 
 
 
-print(GeoAPI.is_hot_in_pehuajo())
+GeoAPI.is_hot_in_pehuajo()

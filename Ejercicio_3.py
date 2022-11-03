@@ -4,6 +4,12 @@ _AVAILABLE_DISCOUNT_CODES = ["Primavera2021", "Verano2021", "Navidad2x1",
 
 
 def validate_discount_code(discount_code):
+    """
+    Recive: Codigo de descuento enviado por el cliente
+    Funcion: La funcion compara el codigo ingresado con los existentes en una lista. Verifica si
+            si la diferencia entre estos es mejor a 3
+    Retorna: True o False
+    """
 
     # Version que se ajusta al ejemplo
     for code in _AVAILABLE_DISCOUNT_CODES:

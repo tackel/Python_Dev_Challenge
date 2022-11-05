@@ -21,6 +21,3 @@ class GeoAPI:
             return False
         except error as e:
             print(e)
-
-
-GeoAPI.is_hot_in_pehuajo()

@@ -45,4 +45,4 @@ def validate_discount_code(discount_code):
     '''
 
 
-validate_discount_code('primavera202122')
+print(validate_discount_code('primavera'))
